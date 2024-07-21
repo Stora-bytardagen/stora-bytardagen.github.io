@@ -27,3 +27,11 @@ body > footer {
     align-items: center;
     justify-content: center;
 }
+
+.center {
+    text-align: center; 
+}
+
+.hero {
+    margin-top: 2rem;
+}
