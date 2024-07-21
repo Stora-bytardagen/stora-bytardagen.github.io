@@ -4,6 +4,17 @@
 
 body { 
     box-sizing: border-box; 
+    min-height: 1vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body > main {
+    flex: 1 0 auto
+}
+
+body > footer {
+    flex-shrink: 0;
 }
 
 .footer_leaf {
